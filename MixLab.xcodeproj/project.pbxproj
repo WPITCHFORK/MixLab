@@ -10,7 +10,16 @@
 		3DE0F90229BE365500FD6C71 /* MixLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F90129BE365500FD6C71 /* MixLabApp.swift */; };
 		3DE0F90429BE365500FD6C71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F90329BE365500FD6C71 /* ContentView.swift */; };
 		3DE0F90629BE365600FD6C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0F90529BE365600FD6C71 /* Assets.xcassets */; };
-		3DE0F90929BE365600FD6C71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0F90829BE365600FD6C71 /* Preview Assets.xcassets */; };
+		3DE0F91329BE379600FD6C71 /* Colours.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0F91229BE379600FD6C71 /* Colours.xcassets */; };
+		3DE0F91629BE37E400FD6C71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0F91529BE37E400FD6C71 /* Preview Assets.xcassets */; };
+		3DE0F91929BE385500FD6C71 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3DE0F91829BE385500FD6C71 /* AudioKit */; };
+		3DE0F91C29BE387200FD6C71 /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = 3DE0F91B29BE387200FD6C71 /* AudioKitEX */; };
+		3DE0F92529BE39B500FD6C71 /* Controls in Frameworks */ = {isa = PBXBuildFile; productRef = 3DE0F92429BE39B500FD6C71 /* Controls */; };
+		3DE0F92829BE39C400FD6C71 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = 3DE0F92729BE39C400FD6C71 /* Flow */; };
+		3DE0F92B29BE39D600FD6C71 /* KissFFT in Frameworks */ = {isa = PBXBuildFile; productRef = 3DE0F92A29BE39D600FD6C71 /* KissFFT */; };
+		3DE0F92E29BE39E000FD6C71 /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3DE0F92D29BE39E000FD6C71 /* SoundpipeAudioKit */; };
+		3DE0F93229BE3D0600FD6C71 /* MixerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0F93129BE3D0600FD6C71 /* MixerAssets.xcassets */; };
+		3DE0F93429BE3DD900FD6C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0F93329BE3DD900FD6C71 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +27,10 @@
 		3DE0F90129BE365500FD6C71 /* MixLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixLabApp.swift; sourceTree = "<group>"; };
 		3DE0F90329BE365500FD6C71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DE0F90529BE365600FD6C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3DE0F90829BE365600FD6C71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DE0F91229BE379600FD6C71 /* Colours.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colours.xcassets; sourceTree = "<group>"; };
+		3DE0F91529BE37E400FD6C71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DE0F93129BE3D0600FD6C71 /* MixerAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MixerAssets.xcassets; sourceTree = "<group>"; };
+		3DE0F93329BE3DD900FD6C71 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +38,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE0F92529BE39B500FD6C71 /* Controls in Frameworks */,
+				3DE0F92829BE39C400FD6C71 /* Flow in Frameworks */,
+				3DE0F91929BE385500FD6C71 /* AudioKit in Frameworks */,
+				3DE0F92B29BE39D600FD6C71 /* KissFFT in Frameworks */,
+				3DE0F92E29BE39E000FD6C71 /* SoundpipeAudioKit in Frameworks */,
+				3DE0F91C29BE387200FD6C71 /* AudioKitEX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,20 +69,55 @@
 		3DE0F90029BE365500FD6C71 /* MixLab */ = {
 			isa = PBXGroup;
 			children = (
+				3DE0F93029BE3CDA00FD6C71 /* Assets */,
+				3DE0F91129BE376D00FD6C71 /* Lessons */,
+				3DE0F91029BE376400FD6C71 /* FreePlay */,
+				3DE0F90F29BE375900FD6C71 /* Samples */,
 				3DE0F90129BE365500FD6C71 /* MixLabApp.swift */,
 				3DE0F90329BE365500FD6C71 /* ContentView.swift */,
-				3DE0F90529BE365600FD6C71 /* Assets.xcassets */,
-				3DE0F90729BE365600FD6C71 /* Preview Content */,
+				3DE0F91429BE37C600FD6C71 /* Preview Content */,
+				3DE0F93329BE3DD900FD6C71 /* LaunchScreen.storyboard */,
 			);
 			path = MixLab;
 			sourceTree = "<group>";
 		};
-		3DE0F90729BE365600FD6C71 /* Preview Content */ = {
+		3DE0F90F29BE375900FD6C71 /* Samples */ = {
 			isa = PBXGroup;
 			children = (
-				3DE0F90829BE365600FD6C71 /* Preview Assets.xcassets */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		3DE0F91029BE376400FD6C71 /* FreePlay */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FreePlay;
+			sourceTree = "<group>";
+		};
+		3DE0F91129BE376D00FD6C71 /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		3DE0F91429BE37C600FD6C71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0F91529BE37E400FD6C71 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DE0F93029BE3CDA00FD6C71 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0F90529BE365600FD6C71 /* Assets.xcassets */,
+				3DE0F91229BE379600FD6C71 /* Colours.xcassets */,
+				3DE0F93129BE3D0600FD6C71 /* MixerAssets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +130,21 @@
 				3DE0F8FA29BE365500FD6C71 /* Sources */,
 				3DE0F8FB29BE365500FD6C71 /* Frameworks */,
 				3DE0F8FC29BE365500FD6C71 /* Resources */,
+				3DE0F92F29BE3BAA00FD6C71 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MixLab;
+			packageProductDependencies = (
+				3DE0F91829BE385500FD6C71 /* AudioKit */,
+				3DE0F91B29BE387200FD6C71 /* AudioKitEX */,
+				3DE0F92429BE39B500FD6C71 /* Controls */,
+				3DE0F92729BE39C400FD6C71 /* Flow */,
+				3DE0F92A29BE39D600FD6C71 /* KissFFT */,
+				3DE0F92D29BE39E000FD6C71 /* SoundpipeAudioKit */,
+			);
 			productName = MixLab;
 			productReference = 3DE0F8FE29BE365500FD6C71 /* MixLab.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +173,14 @@
 				Base,
 			);
 			mainGroup = 3DE0F8F529BE365500FD6C71;
+			packageReferences = (
+				3DE0F91729BE385500FD6C71 /* XCRemoteSwiftPackageReference "AudioKit" */,
+				3DE0F91A29BE387200FD6C71 /* XCRemoteSwiftPackageReference "AudioKitEX" */,
+				3DE0F92329BE39B500FD6C71 /* XCRemoteSwiftPackageReference "Controls" */,
+				3DE0F92629BE39C400FD6C71 /* XCRemoteSwiftPackageReference "Flow" */,
+				3DE0F92929BE39D600FD6C71 /* XCRemoteSwiftPackageReference "KissFFT" */,
+				3DE0F92C29BE39E000FD6C71 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */,
+			);
 			productRefGroup = 3DE0F8FF29BE365500FD6C71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,12 +195,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE0F90929BE365600FD6C71 /* Preview Assets.xcassets in Resources */,
+				3DE0F93229BE3D0600FD6C71 /* MixerAssets.xcassets in Resources */,
+				3DE0F91329BE379600FD6C71 /* Colours.xcassets in Resources */,
+				3DE0F91629BE37E400FD6C71 /* Preview Assets.xcassets in Resources */,
+				3DE0F93429BE3DD900FD6C71 /* LaunchScreen.storyboard in Resources */,
 				3DE0F90629BE365600FD6C71 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DE0F92F29BE3BAA00FD6C71 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nxcrun agvtool next-version -all\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3DE0F8FA29BE365500FD6C71 /* Sources */ = {
@@ -264,17 +358,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 19;
 				DEVELOPMENT_ASSET_PATHS = "\"MixLab/Preview Content\"";
 				DEVELOPMENT_TEAM = TR47HR79G6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MixLab;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +381,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WPMusic.MixLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -293,17 +396,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 19;
 				DEVELOPMENT_ASSET_PATHS = "\"MixLab/Preview Content\"";
 				DEVELOPMENT_TEAM = TR47HR79G6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MixLab;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +419,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WPMusic.MixLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -339,6 +451,90 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3DE0F91729BE385500FD6C71 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		3DE0F91A29BE387200FD6C71 /* XCRemoteSwiftPackageReference "AudioKitEX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitEX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		3DE0F92329BE39B500FD6C71 /* XCRemoteSwiftPackageReference "Controls" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/Controls.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		3DE0F92629BE39C400FD6C71 /* XCRemoteSwiftPackageReference "Flow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/Flow.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		3DE0F92929BE39D600FD6C71 /* XCRemoteSwiftPackageReference "KissFFT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/KissFFT.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		3DE0F92C29BE39E000FD6C71 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SoundpipeAudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3DE0F91829BE385500FD6C71 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DE0F91729BE385500FD6C71 /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		3DE0F91B29BE387200FD6C71 /* AudioKitEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DE0F91A29BE387200FD6C71 /* XCRemoteSwiftPackageReference "AudioKitEX" */;
+			productName = AudioKitEX;
+		};
+		3DE0F92429BE39B500FD6C71 /* Controls */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DE0F92329BE39B500FD6C71 /* XCRemoteSwiftPackageReference "Controls" */;
+			productName = Controls;
+		};
+		3DE0F92729BE39C400FD6C71 /* Flow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DE0F92629BE39C400FD6C71 /* XCRemoteSwiftPackageReference "Flow" */;
+			productName = Flow;
+		};
+		3DE0F92A29BE39D600FD6C71 /* KissFFT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DE0F92929BE39D600FD6C71 /* XCRemoteSwiftPackageReference "KissFFT" */;
+			productName = KissFFT;
+		};
+		3DE0F92D29BE39E000FD6C71 /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DE0F92C29BE39E000FD6C71 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */;
+			productName = SoundpipeAudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3DE0F8F629BE365500FD6C71 /* Project object */;
 }
