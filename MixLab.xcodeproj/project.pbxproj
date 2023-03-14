@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		3DE0F90229BE365500FD6C71 /* MixLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F90129BE365500FD6C71 /* MixLabApp.swift */; };
 		3DE0F90429BE365500FD6C71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F90329BE365500FD6C71 /* ContentView.swift */; };
-		3DE0F90629BE365600FD6C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0F90529BE365600FD6C71 /* Assets.xcassets */; };
-		3DE0F91329BE379600FD6C71 /* Colours.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0F91229BE379600FD6C71 /* Colours.xcassets */; };
 		3DE0F91629BE37E400FD6C71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0F91529BE37E400FD6C71 /* Preview Assets.xcassets */; };
 		3DE0F91929BE385500FD6C71 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3DE0F91829BE385500FD6C71 /* AudioKit */; };
 		3DE0F91C29BE387200FD6C71 /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = 3DE0F91B29BE387200FD6C71 /* AudioKitEX */; };
@@ -18,19 +16,29 @@
 		3DE0F92829BE39C400FD6C71 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = 3DE0F92729BE39C400FD6C71 /* Flow */; };
 		3DE0F92B29BE39D600FD6C71 /* KissFFT in Frameworks */ = {isa = PBXBuildFile; productRef = 3DE0F92A29BE39D600FD6C71 /* KissFFT */; };
 		3DE0F92E29BE39E000FD6C71 /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3DE0F92D29BE39E000FD6C71 /* SoundpipeAudioKit */; };
-		3DE0F93229BE3D0600FD6C71 /* MixerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0F93129BE3D0600FD6C71 /* MixerAssets.xcassets */; };
+		3DE0F93229BE3D0600FD6C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0F93129BE3D0600FD6C71 /* Assets.xcassets */; };
 		3DE0F93429BE3DD900FD6C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0F93329BE3DD900FD6C71 /* LaunchScreen.storyboard */; };
+		3DE0F93629BE49E100FD6C71 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F93529BE49E100FD6C71 /* NewView.swift */; };
+		3DE0F95329C0B25A00FD6C71 /* LessonsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95229C0B25A00FD6C71 /* LessonsButton.swift */; };
+		3DE0F95529C0B4E400FD6C71 /* FreePlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95429C0B4E400FD6C71 /* FreePlayButton.swift */; };
+		3DE0F95729C0B7BE00FD6C71 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95629C0B7BE00FD6C71 /* SettingsButton.swift */; };
+		3DE0F95929C0B7C600FD6C71 /* AboutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95829C0B7C600FD6C71 /* AboutButton.swift */; };
+		3DE0F95D29C0BD4E00FD6C71 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95C29C0BD4E00FD6C71 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3DE0F8FE29BE365500FD6C71 /* MixLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE0F90129BE365500FD6C71 /* MixLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixLabApp.swift; sourceTree = "<group>"; };
 		3DE0F90329BE365500FD6C71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3DE0F90529BE365600FD6C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3DE0F91229BE379600FD6C71 /* Colours.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colours.xcassets; sourceTree = "<group>"; };
 		3DE0F91529BE37E400FD6C71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3DE0F93129BE3D0600FD6C71 /* MixerAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MixerAssets.xcassets; sourceTree = "<group>"; };
+		3DE0F93129BE3D0600FD6C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DE0F93329BE3DD900FD6C71 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DE0F93529BE49E100FD6C71 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+		3DE0F95229C0B25A00FD6C71 /* LessonsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsButton.swift; sourceTree = "<group>"; };
+		3DE0F95429C0B4E400FD6C71 /* FreePlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePlayButton.swift; sourceTree = "<group>"; };
+		3DE0F95629C0B7BE00FD6C71 /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
+		3DE0F95829C0B7C600FD6C71 /* AboutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutButton.swift; sourceTree = "<group>"; };
+		3DE0F95C29C0BD4E00FD6C71 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,9 @@
 		3DE0F90029BE365500FD6C71 /* MixLab */ = {
 			isa = PBXGroup;
 			children = (
+				3DE0F95B29C0BD4100FD6C71 /* About */,
+				3DE0F95A29C0BD3900FD6C71 /* Settings */,
+				3DE0F95129C0B23D00FD6C71 /* HomeViews */,
 				3DE0F93029BE3CDA00FD6C71 /* Assets */,
 				3DE0F91129BE376D00FD6C71 /* Lessons */,
 				3DE0F91029BE376400FD6C71 /* FreePlay */,
@@ -77,6 +88,7 @@
 				3DE0F90329BE365500FD6C71 /* ContentView.swift */,
 				3DE0F91429BE37C600FD6C71 /* Preview Content */,
 				3DE0F93329BE3DD900FD6C71 /* LaunchScreen.storyboard */,
+				3DE0F93529BE49E100FD6C71 /* NewView.swift */,
 			);
 			path = MixLab;
 			sourceTree = "<group>";
@@ -113,11 +125,35 @@
 		3DE0F93029BE3CDA00FD6C71 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				3DE0F90529BE365600FD6C71 /* Assets.xcassets */,
-				3DE0F91229BE379600FD6C71 /* Colours.xcassets */,
-				3DE0F93129BE3D0600FD6C71 /* MixerAssets.xcassets */,
+				3DE0F93129BE3D0600FD6C71 /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		3DE0F95129C0B23D00FD6C71 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0F95229C0B25A00FD6C71 /* LessonsButton.swift */,
+				3DE0F95429C0B4E400FD6C71 /* FreePlayButton.swift */,
+				3DE0F95629C0B7BE00FD6C71 /* SettingsButton.swift */,
+				3DE0F95829C0B7C600FD6C71 /* AboutButton.swift */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		3DE0F95A29C0BD3900FD6C71 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0F95C29C0BD4E00FD6C71 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3DE0F95B29C0BD4100FD6C71 /* About */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = About;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,11 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE0F93229BE3D0600FD6C71 /* MixerAssets.xcassets in Resources */,
-				3DE0F91329BE379600FD6C71 /* Colours.xcassets in Resources */,
+				3DE0F93229BE3D0600FD6C71 /* Assets.xcassets in Resources */,
 				3DE0F91629BE37E400FD6C71 /* Preview Assets.xcassets in Resources */,
 				3DE0F93429BE3DD900FD6C71 /* LaunchScreen.storyboard in Resources */,
-				3DE0F90629BE365600FD6C71 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +243,7 @@
 		3DE0F92F29BE3BAA00FD6C71 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -220,7 +254,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nxcrun agvtool next-version -all\n";
 		};
@@ -231,7 +265,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE0F93629BE49E100FD6C71 /* NewView.swift in Sources */,
+				3DE0F95D29C0BD4E00FD6C71 /* SettingsView.swift in Sources */,
+				3DE0F95929C0B7C600FD6C71 /* AboutButton.swift in Sources */,
 				3DE0F90429BE365500FD6C71 /* ContentView.swift in Sources */,
+				3DE0F95329C0B25A00FD6C71 /* LessonsButton.swift in Sources */,
+				3DE0F95529C0B4E400FD6C71 /* FreePlayButton.swift in Sources */,
+				3DE0F95729C0B7BE00FD6C71 /* SettingsButton.swift in Sources */,
 				3DE0F90229BE365500FD6C71 /* MixLabApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +400,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 19;
+				CURRENT_PROJECT_VERSION = 28;
 				DEVELOPMENT_ASSET_PATHS = "\"MixLab/Preview Content\"";
 				DEVELOPMENT_TEAM = TR47HR79G6;
 				ENABLE_PREVIEWS = YES;
@@ -398,7 +438,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 19;
+				CURRENT_PROJECT_VERSION = 28;
 				DEVELOPMENT_ASSET_PATHS = "\"MixLab/Preview Content\"";
 				DEVELOPMENT_TEAM = TR47HR79G6;
 				ENABLE_PREVIEWS = YES;

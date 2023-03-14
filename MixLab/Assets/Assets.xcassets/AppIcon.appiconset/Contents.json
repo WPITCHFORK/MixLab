@@ -87,18 +87,21 @@
       "size" : "68x68"
     },
     {
+      "filename" : "icon_76pt@2x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "76x76"
     },
     {
+      "filename" : "icon_83.5@2x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "Icon@2x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
