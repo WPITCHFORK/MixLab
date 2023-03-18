@@ -14,7 +14,7 @@ struct SettingsButton: View {
                     .aspectRatio(1.0, contentMode: ContentMode.fit)
                     .foregroundColor(CustomLightBlue)
             
-            NavigationLink(destination: NewView()) {
+            NavigationLink(destination: SettingsView()) {
                 VStack {
                     Image(systemName: "gearshape.2.fill")
                         .font(.system(size: 200))

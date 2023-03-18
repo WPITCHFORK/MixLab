@@ -14,7 +14,7 @@ struct FreePlayButton: View {
                     .aspectRatio(1.0, contentMode: ContentMode.fit)
                     .foregroundColor(CustomLightBlue)
             
-            NavigationLink(destination: NewView()) {
+            NavigationLink(destination: Text("Free Play Screen")) {
                 VStack {
                     Image(systemName: "slider.vertical.3")
                         .font(.system(size: 200))

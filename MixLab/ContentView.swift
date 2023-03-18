@@ -41,9 +41,11 @@ struct ContentView: View {
                         }
                     }
                 }
+                .padding(.top, 20)
             }
         }
         .scrollContentBackground(.hidden)
+        .statusBarHidden(true)
     }
 }
 
@@ -51,27 +53,5 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .previewInterfaceOrientation(.landscapeLeft)
-    }
-}
-
-struct ExtractedView: View {
-    var body: some View {
-        ZStack {
-            Button {
-            } label: {
-                RoundedRectangle(cornerRadius: 20.0)
-                    .aspectRatio(1.0, contentMode: ContentMode.fit)
-                    .foregroundColor(CustomLightBlue)
-            }
-            
-            NavigationLink(destination: NewView()) {
-                VStack {
-                    Image(systemName: "play.circle")
-                    Text("Button5")
-                }
-                .frame(width: 200, height: 200)
-            }
-            .buttonStyle(.plain)
-        }
     }
 }

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D015AEE29C631B300382413 /* HoldingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D015AED29C631B300382413 /* HoldingView.swift */; };
+		3D41A2B329C0EA3A008677A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D41A2B229C0EA3A008677A2 /* AppDelegate.swift */; };
+		3D41A2B529C2118C008677A2 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D41A2B429C2118C008677A2 /* LessonView.swift */; };
+		3D41A2B729C2191D008677A2 /* LessonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D41A2B629C2191D008677A2 /* LessonData.swift */; };
+		3D41A2B929C23184008677A2 /* LessonLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D41A2B829C23184008677A2 /* LessonLoadingView.swift */; };
 		3DE0F90229BE365500FD6C71 /* MixLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F90129BE365500FD6C71 /* MixLabApp.swift */; };
 		3DE0F90429BE365500FD6C71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F90329BE365500FD6C71 /* ContentView.swift */; };
 		3DE0F91629BE37E400FD6C71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE0F91529BE37E400FD6C71 /* Preview Assets.xcassets */; };
@@ -27,6 +32,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D015AED29C631B300382413 /* HoldingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingView.swift; sourceTree = "<group>"; };
+		3D41A2B229C0EA3A008677A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../../../../../../Downloads/AppDelegate.swift; sourceTree = "<group>"; };
+		3D41A2B429C2118C008677A2 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		3D41A2B629C2191D008677A2 /* LessonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonData.swift; sourceTree = "<group>"; };
+		3D41A2B829C23184008677A2 /* LessonLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonLoadingView.swift; sourceTree = "<group>"; };
 		3DE0F8FE29BE365500FD6C71 /* MixLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE0F90129BE365500FD6C71 /* MixLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixLabApp.swift; sourceTree = "<group>"; };
 		3DE0F90329BE365500FD6C71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +99,7 @@
 				3DE0F91429BE37C600FD6C71 /* Preview Content */,
 				3DE0F93329BE3DD900FD6C71 /* LaunchScreen.storyboard */,
 				3DE0F93529BE49E100FD6C71 /* NewView.swift */,
+				3D41A2B229C0EA3A008677A2 /* AppDelegate.swift */,
 			);
 			path = MixLab;
 			sourceTree = "<group>";
@@ -110,6 +121,10 @@
 		3DE0F91129BE376D00FD6C71 /* Lessons */ = {
 			isa = PBXGroup;
 			children = (
+				3D41A2B429C2118C008677A2 /* LessonView.swift */,
+				3D015AED29C631B300382413 /* HoldingView.swift */,
+				3D41A2B829C23184008677A2 /* LessonLoadingView.swift */,
+				3D41A2B629C2191D008677A2 /* LessonData.swift */,
 			);
 			path = Lessons;
 			sourceTree = "<group>";
@@ -267,12 +282,17 @@
 			files = (
 				3DE0F93629BE49E100FD6C71 /* NewView.swift in Sources */,
 				3DE0F95D29C0BD4E00FD6C71 /* SettingsView.swift in Sources */,
+				3D41A2B529C2118C008677A2 /* LessonView.swift in Sources */,
 				3DE0F95929C0B7C600FD6C71 /* AboutButton.swift in Sources */,
+				3D015AEE29C631B300382413 /* HoldingView.swift in Sources */,
+				3D41A2B329C0EA3A008677A2 /* AppDelegate.swift in Sources */,
 				3DE0F90429BE365500FD6C71 /* ContentView.swift in Sources */,
 				3DE0F95329C0B25A00FD6C71 /* LessonsButton.swift in Sources */,
+				3D41A2B729C2191D008677A2 /* LessonData.swift in Sources */,
 				3DE0F95529C0B4E400FD6C71 /* FreePlayButton.swift in Sources */,
 				3DE0F95729C0B7BE00FD6C71 /* SettingsButton.swift in Sources */,
 				3DE0F90229BE365500FD6C71 /* MixLabApp.swift in Sources */,
+				3D41A2B929C23184008677A2 /* LessonLoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +420,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 28;
+				CURRENT_PROJECT_VERSION = 30;
 				DEVELOPMENT_ASSET_PATHS = "\"MixLab/Preview Content\"";
 				DEVELOPMENT_TEAM = TR47HR79G6;
 				ENABLE_PREVIEWS = YES;
@@ -438,7 +458,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 28;
+				CURRENT_PROJECT_VERSION = 30;
 				DEVELOPMENT_ASSET_PATHS = "\"MixLab/Preview Content\"";
 				DEVELOPMENT_TEAM = TR47HR79G6;
 				ENABLE_PREVIEWS = YES;

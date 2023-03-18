@@ -14,7 +14,7 @@ struct AboutButton: View {
                     .aspectRatio(1.0, contentMode: ContentMode.fit)
                     .foregroundColor(CustomLightBlue)
             
-            NavigationLink(destination: NewView()) {
+            NavigationLink(destination: Text("About Screen")) {
                 VStack {
                     Image(systemName: "info.bubble.fill")
                         .font(.system(size: 200))
