@@ -10,9 +10,9 @@ import SwiftUI
 struct AboutButton: View {
     var body: some View {
         ZStack {
-                RoundedRectangle(cornerRadius: 20.0)
-                    .aspectRatio(1.0, contentMode: ContentMode.fit)
-                    .foregroundColor(CustomLightBlue)
+            RoundedRectangle(cornerRadius: 20.0)
+                .aspectRatio(1.0, contentMode: ContentMode.fit)
+                .foregroundColor(CustomLightBlue)
             
             NavigationLink(destination: Text("About Screen")) {
                 VStack {
