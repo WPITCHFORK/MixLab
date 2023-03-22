@@ -9,23 +9,25 @@ import SwiftUI
 
 struct AboutButton: View {
     var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 20.0)
-                .aspectRatio(1.0, contentMode: ContentMode.fit)
-                .foregroundColor(CustomLightBlue)
-            
-            NavigationLink(destination: Text("About Screen")) {
-                VStack {
-                    Image(systemName: "info.bubble.fill")
-                        .font(.system(size: 200))
-                        .foregroundColor(CustomBlue)
-                    Text("About")
-                        .font(.system(size: 50))
-                        .foregroundColor(CustomBlue)
-                        .fontWeight(.heavy)
+        Button (action: { }) {
+            ZStack {
+                RoundedRectangle(cornerRadius: 20.0)
+                    .aspectRatio(1.0, contentMode: ContentMode.fit)
+                    .foregroundColor(CustomLightBlue)
+                
+                NavigationLink(destination: Text("About Screen")) {
+                    VStack {
+                        Image(systemName: "info.bubble.fill")
+                            .font(.system(size: 200))
+                            .foregroundColor(CustomBlue)
+                        Text("About")
+                            .font(.system(size: 50))
+                            .foregroundColor(CustomBlue)
+                            .fontWeight(.heavy)
+                    }
                 }
+                .buttonStyle(.plain)
             }
-            .buttonStyle(.plain)
         }
     }
 }

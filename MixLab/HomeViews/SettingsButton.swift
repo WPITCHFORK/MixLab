@@ -9,23 +9,25 @@ import SwiftUI
 
 struct SettingsButton: View {
     var body: some View {
-        ZStack {
-                RoundedRectangle(cornerRadius: 20.0)
-                    .aspectRatio(1.0, contentMode: ContentMode.fit)
-                    .foregroundColor(CustomLightBlue)
-            
-            NavigationLink(destination: SettingsView()) {
-                VStack {
-                    Image(systemName: "gearshape.2.fill")
-                        .font(.system(size: 200))
-                        .foregroundColor(CustomBlue)
-                    Text("Settings")
-                        .font(.system(size: 50))
-                        .foregroundColor(CustomBlue)
-                        .fontWeight(.heavy)
+        Button (action: { }) {
+            ZStack {
+                    RoundedRectangle(cornerRadius: 20.0)
+                        .aspectRatio(1.0, contentMode: ContentMode.fit)
+                        .foregroundColor(CustomLightBlue)
+                
+                NavigationLink(destination: SettingsView()) {
+                    VStack {
+                        Image(systemName: "gearshape.2.fill")
+                            .font(.system(size: 200))
+                            .foregroundColor(CustomBlue)
+                        Text("Settings")
+                            .font(.system(size: 50))
+                            .foregroundColor(CustomBlue)
+                            .fontWeight(.heavy)
+                    }
                 }
+                .buttonStyle(.plain)
             }
-            .buttonStyle(.plain)
         }
     }
 }

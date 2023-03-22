@@ -8,30 +8,71 @@
 import SwiftUI
 
 struct HoldingView: View {
-    var lessonSelected: Int
+    var selectedLesson: lessonInfo
+    //var lessonSelected: Int
     var loading: Bool = true
-    @EnvironmentObject var lesson: Lesson
     
     var body: some View {
         ZStack {
             CustomBlue
                 .ignoresSafeArea()
             
-            VStack {
-                ActivityIndicator(isAnimating: true)
-                    .configure { $0.color = UIColor(CustomBlue)}
-                    .padding()
-                    .background(CustomLightBlue)
-                    .cornerRadius(100)
-                    .padding(.bottom, 20)
-                Text("Please wait whilst I load Lesson \(lessonSelected)")
+            ZStack {
+                RoundedRectangle(cornerRadius: 20)
                     .foregroundColor(CustomLightBlue)
-                    .font(.title)
-                //Text("Please wait whilst I load Lesson \(lesson.selectedLesson)")
+                VStack {
+                    Spacer()
+                    
+                    selectedLesson.Image
+                        .font(.system(size: selectedLesson.ImageSize))
+                        .foregroundColor(CustomBlue)
+                    
+                    Spacer()
+                    VStack {
+                        Text("Lesson \(selectedLesson.id)")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(CustomBlue)
+                        Text(selectedLesson.LongTitle)
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
+                            .foregroundColor(CustomBlue)
+                        RoundedRectangle(cornerRadius: 5)
+                            .foregroundColor(CustomBlue)
+                            .frame(height: 5)
+                            .padding(.horizontal, 50)
+                    }
+                    
+                    Spacer()
+                    
+                    Text("Description of Lesson")
+                        .foregroundColor(CustomBlue)
+                    
+                    Spacer()
+                    
+                    Button (action: {
+                        
+                    }) {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 50)
+                                .frame(width: 150, height: 40)
+                                .foregroundColor(CustomBlue)
+                            
+                            Text("Start Lesson")
+                                .fontWeight(.bold)
+                                .foregroundColor(CustomLightBlue)
+                        }
+                    }
+                    
+                    Spacer()
+                }
             }
+            .padding(.vertical, 50)
+            .padding(.horizontal, 100)
         }
     }
 }
+
 
 struct ActivityIndicator: UIViewRepresentable {
     typealias UIView = UIActivityIndicatorView
@@ -55,7 +96,7 @@ extension View where Self == ActivityIndicator {
 
 struct HoldingView_Previews: PreviewProvider {
     static var previews: some View {
-        HoldingView(lessonSelected: 3)
+        HoldingView(selectedLesson: lessonInfo(id: 1, ShortTitle: "Intro", LongTitle: "Introduction to Music Technology", Image: Image(systemName: "magnifyingglass"), ImageSize: 150))
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }

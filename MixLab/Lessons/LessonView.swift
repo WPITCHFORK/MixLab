@@ -8,13 +8,7 @@
 import SwiftUI
 import UIKit
 
-class Lesson: ObservableObject {
-    @Published var selectedLesson = 0
-}
-
 struct LessonView: View {
-    @ObservedObject var selectedLesson = Lesson()
-    
     init() {
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
     }
@@ -30,25 +24,29 @@ struct LessonView: View {
                 ScrollView {
                     LazyVGrid(columns: columnLayout) {
                         ForEach(lessons) { lessonInfo in
-                            ZStack {
-                                RoundedRectangle(cornerRadius: 20)
-                                    .aspectRatio(contentMode: .fit)
-                                    .foregroundColor(CustomLightBlue)
-                                    .padding(.horizontal, 10)
-                                    .padding(.vertical, 5)
-                                NavigationLink(destination: HoldingView(lessonSelected: lessonInfo.id)) {
-                                    VStack {
-                                        lessonInfo.Image
-                                            .font(.system(size: lessonInfo.ImageSize))
-                                            .foregroundColor(CustomBlue)
-                                            .padding(.bottom, 20)
-                                        Spacer()
-                                        Text("Lesson \(lessonInfo.id): \(lessonInfo.LongTitle)")
-                                            .foregroundColor(CustomBlue)
-                                            .font(.title)
-                                            .fontWeight(.semibold)
+                            Button (action: { }) {
+                                ZStack {
+                                    RoundedRectangle(cornerRadius: 20)
+                                        .aspectRatio(contentMode: .fit)
+                                        .foregroundColor(CustomLightBlue)
+                                        .padding(.horizontal, 10)
+                                        .padding(.vertical, 5)
+                                    NavigationLink(destination: HoldingView(selectedLesson: lessonInfo)) {
+                                        VStack {
+                                            Spacer()
+                                            lessonInfo.Image
+                                                .font(.system(size: lessonInfo.ImageSize))
+                                                .foregroundColor(CustomBlue)
+                                                .padding(.bottom, 20)
+                                            Spacer()
+                                            Text("Lesson \(lessonInfo.id): \(lessonInfo.LongTitle)")
+                                                .foregroundColor(CustomBlue)
+                                                .font(.title)
+                                                .fontWeight(.semibold)
+                                            Spacer()
+                                        }
+                                        .padding(.all, 50)
                                     }
-                                    .padding(.all, 50)
                                 }
                             }
                         }
@@ -59,7 +57,6 @@ struct LessonView: View {
             }
             .navigationBarTitle("Lessons", displayMode: .inline)
         }
-        .environmentObject(selectedLesson)
     }
 }
 
@@ -70,12 +67,13 @@ struct LessonView_Previews: PreviewProvider {
     }
 }
 
-private struct lessonInfo: Identifiable {
+struct lessonInfo: Identifiable {
     var id: Int
     let ShortTitle: String
     let LongTitle: String
     let Image: Image
     let ImageSize: CGFloat
+    //let Description: String
 }
 
 private let lessons: [lessonInfo] = [
