@@ -37,7 +37,7 @@ struct HoldingView: View {
                             .font(.largeTitle)
                             .fontWeight(.bold)
                             .foregroundColor(CustomBlue)
-                        RoundedRectangle(cornerRadius: 5)
+                        RoundedRectangle(cornerRadius: 10)
                             .foregroundColor(CustomBlue)
                             .frame(height: 5)
                             .padding(.horizontal, 50)
@@ -45,8 +45,10 @@ struct HoldingView: View {
                     
                     Spacer()
                     
-                    Text("Description of Lesson")
+                    Text(selectedLesson.Description)
                         .foregroundColor(CustomBlue)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 250)
                     
                     Spacer()
                     
@@ -96,7 +98,7 @@ extension View where Self == ActivityIndicator {
 
 struct HoldingView_Previews: PreviewProvider {
     static var previews: some View {
-        HoldingView(selectedLesson: lessonInfo(id: 1, ShortTitle: "Intro", LongTitle: "Introduction to Music Technology", Image: Image(systemName: "magnifyingglass"), ImageSize: 150))
+        HoldingView(selectedLesson: lessonInfo(id: 1, ShortTitle: "Intro", LongTitle: "Introduction to Music Technology", Image: Image(systemName: "magnifyingglass"), ImageSize: 150, Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."))
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }
