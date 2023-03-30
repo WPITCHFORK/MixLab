@@ -27,7 +27,6 @@
 		3DE0F95329C0B25A00FD6C71 /* LessonsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95229C0B25A00FD6C71 /* LessonsButton.swift */; };
 		3DE0F95529C0B4E400FD6C71 /* FreePlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95429C0B4E400FD6C71 /* FreePlayButton.swift */; };
 		3DE0F95729C0B7BE00FD6C71 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95629C0B7BE00FD6C71 /* SettingsButton.swift */; };
-		3DE0F95929C0B7C600FD6C71 /* AboutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95829C0B7C600FD6C71 /* AboutButton.swift */; };
 		3DE0F95D29C0BD4E00FD6C71 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95C29C0BD4E00FD6C71 /* SettingsView.swift */; };
 		3DE6053229D58CF800AF28A2 /* NewView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE6053129D58CF800AF28A2 /* NewView2.swift */; };
 		3DE6053429D5953400AF28A2 /* GamesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE6053329D5953400AF28A2 /* GamesButton.swift */; };
@@ -49,7 +48,6 @@
 		3DE0F95229C0B25A00FD6C71 /* LessonsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsButton.swift; sourceTree = "<group>"; };
 		3DE0F95429C0B4E400FD6C71 /* FreePlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePlayButton.swift; sourceTree = "<group>"; };
 		3DE0F95629C0B7BE00FD6C71 /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
-		3DE0F95829C0B7C600FD6C71 /* AboutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutButton.swift; sourceTree = "<group>"; };
 		3DE0F95C29C0BD4E00FD6C71 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		3DE6053129D58CF800AF28A2 /* NewView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView2.swift; sourceTree = "<group>"; };
 		3DE6053329D5953400AF28A2 /* GamesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesButton.swift; sourceTree = "<group>"; };
@@ -91,7 +89,7 @@
 		3DE0F90029BE365500FD6C71 /* MixLab */ = {
 			isa = PBXGroup;
 			children = (
-				3DE0F95B29C0BD4100FD6C71 /* About */,
+				3DE0F95B29C0BD4100FD6C71 /* Games */,
 				3DE0F95A29C0BD3900FD6C71 /* Settings */,
 				3DE0F95129C0B23D00FD6C71 /* HomeViews */,
 				3DE0F93029BE3CDA00FD6C71 /* Assets */,
@@ -156,7 +154,6 @@
 				3DE0F95229C0B25A00FD6C71 /* LessonsButton.swift */,
 				3DE0F95429C0B4E400FD6C71 /* FreePlayButton.swift */,
 				3DE0F95629C0B7BE00FD6C71 /* SettingsButton.swift */,
-				3DE0F95829C0B7C600FD6C71 /* AboutButton.swift */,
 				3DE6053329D5953400AF28A2 /* GamesButton.swift */,
 			);
 			path = HomeViews;
@@ -170,11 +167,11 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
-		3DE0F95B29C0BD4100FD6C71 /* About */ = {
+		3DE0F95B29C0BD4100FD6C71 /* Games */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = About;
+			path = Games;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +287,6 @@
 				3DE0F95D29C0BD4E00FD6C71 /* SettingsView.swift in Sources */,
 				3DE6053429D5953400AF28A2 /* GamesButton.swift in Sources */,
 				3D41A2B529C2118C008677A2 /* LessonView.swift in Sources */,
-				3DE0F95929C0B7C600FD6C71 /* AboutButton.swift in Sources */,
 				3D015AEE29C631B300382413 /* HoldingView.swift in Sources */,
 				3D41A2B329C0EA3A008677A2 /* AppDelegate.swift in Sources */,
 				3DE0F90429BE365500FD6C71 /* ContentView.swift in Sources */,

@@ -28,7 +28,7 @@ struct SettingsView: View {
                 Button(action: {
                     selection = 3
                 }) {
-                    Text("Setting 3")
+                    Text("About")
                 }
                
             }
@@ -38,7 +38,15 @@ struct SettingsView: View {
             } else if selection == 2 {
                 Text("Details 2")
             } else if selection == 3 {
-                Text("Details 3")
+                VStack {
+                    Spacer()
+                    Text("About MixLab")
+                        .font(.largeTitle)
+                    Spacer()
+                    Text("MixLab has been created as part of an MEng Project by Will Pitchfork, studying for a Master in Electronic Engineering with Music Technology Systems.")
+                        .multilineTextAlignment(.center)
+                    Spacer()
+                }
             }
         }
 
