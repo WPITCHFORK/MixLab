@@ -30,6 +30,7 @@
 		3DE0F95929C0B7C600FD6C71 /* AboutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95829C0B7C600FD6C71 /* AboutButton.swift */; };
 		3DE0F95D29C0BD4E00FD6C71 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95C29C0BD4E00FD6C71 /* SettingsView.swift */; };
 		3DE6053229D58CF800AF28A2 /* NewView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE6053129D58CF800AF28A2 /* NewView2.swift */; };
+		3DE6053429D5953400AF28A2 /* GamesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE6053329D5953400AF28A2 /* GamesButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		3DE0F95829C0B7C600FD6C71 /* AboutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutButton.swift; sourceTree = "<group>"; };
 		3DE0F95C29C0BD4E00FD6C71 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		3DE6053129D58CF800AF28A2 /* NewView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView2.swift; sourceTree = "<group>"; };
+		3DE6053329D5953400AF28A2 /* GamesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				3DE0F95429C0B4E400FD6C71 /* FreePlayButton.swift */,
 				3DE0F95629C0B7BE00FD6C71 /* SettingsButton.swift */,
 				3DE0F95829C0B7C600FD6C71 /* AboutButton.swift */,
+				3DE6053329D5953400AF28A2 /* GamesButton.swift */,
 			);
 			path = HomeViews;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			files = (
 				3DE0F93629BE49E100FD6C71 /* NewView.swift in Sources */,
 				3DE0F95D29C0BD4E00FD6C71 /* SettingsView.swift in Sources */,
+				3DE6053429D5953400AF28A2 /* GamesButton.swift in Sources */,
 				3D41A2B529C2118C008677A2 /* LessonView.swift in Sources */,
 				3DE0F95929C0B7C600FD6C71 /* AboutButton.swift in Sources */,
 				3D015AEE29C631B300382413 /* HoldingView.swift in Sources */,

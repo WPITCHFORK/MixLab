@@ -34,9 +34,9 @@ struct ContentView: View {
                                 .padding(.horizontal, 20)
                         }
                         GridRow{
-                            SettingsButton()
+                            GamesButton()
                                 .padding(.horizontal, 20)
-                            AboutButton()
+                            SettingsButton()
                                 .padding(.horizontal, 20)
                         }
                     }
