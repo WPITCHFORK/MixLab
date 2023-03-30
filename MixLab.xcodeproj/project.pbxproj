@@ -29,6 +29,7 @@
 		3DE0F95729C0B7BE00FD6C71 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95629C0B7BE00FD6C71 /* SettingsButton.swift */; };
 		3DE0F95929C0B7C600FD6C71 /* AboutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95829C0B7C600FD6C71 /* AboutButton.swift */; };
 		3DE0F95D29C0BD4E00FD6C71 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0F95C29C0BD4E00FD6C71 /* SettingsView.swift */; };
+		3DE6053229D58CF800AF28A2 /* NewView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE6053129D58CF800AF28A2 /* NewView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		3DE0F95629C0B7BE00FD6C71 /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
 		3DE0F95829C0B7C600FD6C71 /* AboutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutButton.swift; sourceTree = "<group>"; };
 		3DE0F95C29C0BD4E00FD6C71 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3DE6053129D58CF800AF28A2 /* NewView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				3DE0F91429BE37C600FD6C71 /* Preview Content */,
 				3DE0F93329BE3DD900FD6C71 /* LaunchScreen.storyboard */,
 				3DE0F93529BE49E100FD6C71 /* NewView.swift */,
+				3DE6053129D58CF800AF28A2 /* NewView2.swift */,
 				3D41A2B229C0EA3A008677A2 /* AppDelegate.swift */,
 			);
 			path = MixLab;
@@ -290,6 +293,7 @@
 				3DE0F95329C0B25A00FD6C71 /* LessonsButton.swift in Sources */,
 				3D41A2B729C2191D008677A2 /* LessonData.swift in Sources */,
 				3DE0F95529C0B4E400FD6C71 /* FreePlayButton.swift in Sources */,
+				3DE6053229D58CF800AF28A2 /* NewView2.swift in Sources */,
 				3DE0F95729C0B7BE00FD6C71 /* SettingsButton.swift in Sources */,
 				3DE0F90229BE365500FD6C71 /* MixLabApp.swift in Sources */,
 				3D41A2B929C23184008677A2 /* LessonLoadingView.swift in Sources */,
